@@ -1,0 +1,55 @@
+[debug] [2019-02-26T09:52:59.644Z] ----------------------------------------------------------------------
+[debug] [2019-02-26T09:52:59.647Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2019-02-26T09:52:59.647Z] CLI Version:   6.4.0
+[debug] [2019-02-26T09:52:59.647Z] Platform:      linux
+[debug] [2019-02-26T09:52:59.647Z] Node Version:  v8.10.0
+[debug] [2019-02-26T09:52:59.647Z] Time:          Tue Feb 26 2019 14:52:59 GMT+0500 (PKT)
+[debug] [2019-02-26T09:52:59.647Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-26T09:52:59.654Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-26T09:52:59.654Z] > authorizing via signed-in user
+[debug] [2019-02-26T09:52:59.654Z] [iam] checking project new-frkepw for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-02-26T09:52:59.656Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-26T09:52:59.656Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-26T09:53:00.974Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-26T09:53:00.979Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/new-frkepw:testIamPermissions  
+
+[debug] [2019-02-26T09:53:03.128Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'new-frkepw'...
+[info] 
+[info] i  deploying functions
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[info] ✔  functions: Finished running predeploy script.
+[debug] [2019-02-26T09:53:06.577Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-plugin-promise": "^4.0.1"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-02-26T09:53:06.579Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/new-frkepw?view=CONSUMER_VIEW  
+ 
+[debug] [2019-02-26T09:53:06.580Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/new-frkepw?view=CONSUMER_VIEW  
+ 
+[debug] [2019-02-26T09:53:07.884Z] Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TLSWrap.onread (net.js:628:25)
+[error] 
+[error] Error: Server Error. read ECONNRESET

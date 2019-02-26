@@ -1,0 +1,80 @@
+{
+  "id": "b2f4aa64-1d47-457c-85ea-4b0038f430c4",
+  "name": "Add",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Add",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0df18ea5-fc00-42ff-a0d4-2bb4a7c3b4fd",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "num1",
+          "value": "$num1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter 1st number for $add."
+            },
+            {
+              "lang": "en",
+              "value": "Kindly tell the first number for $add"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "984173ed-3baf-4f2d-a8aa-d0d2409d3d83",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "num2",
+          "value": "$num2",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Kindly tell me second number for $add."
+            },
+            {
+              "lang": "en",
+              "value": "Please enter 2nd number for $add."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "53070138-15c2-4ec9-81b0-a6b345b851b2",
+          "required": true,
+          "dataType": "@add",
+          "name": "add",
+          "value": "$add",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please specify operation"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "something went wrong"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1551097171,
+  "fallbackIntent": false,
+  "events": []
+}

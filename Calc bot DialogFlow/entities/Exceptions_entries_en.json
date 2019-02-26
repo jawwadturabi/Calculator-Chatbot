@@ -1,0 +1,33 @@
+[
+  {
+    "value": "modulus",
+    "synonyms": [
+      "modulus",
+      "%"
+    ]
+  },
+  {
+    "value": "percentage",
+    "synonyms": [
+      "percentage"
+    ]
+  },
+  {
+    "value": "log",
+    "synonyms": [
+      "log"
+    ]
+  },
+  {
+    "value": "cube root",
+    "synonyms": [
+      "cube root"
+    ]
+  },
+  {
+    "value": "square root",
+    "synonyms": [
+      "square root"
+    ]
+  }
+]

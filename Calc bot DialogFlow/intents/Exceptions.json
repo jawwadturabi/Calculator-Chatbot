@@ -1,0 +1,54 @@
+{
+  "id": "5581ed0f-f651-488a-984a-7b8c2139bf5c",
+  "name": "Exceptions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "028b5603-ea5c-4a29-8029-2d424a7c5000",
+          "required": false,
+          "dataType": "@Exceptions",
+          "name": "Exceptions",
+          "value": "$Exceptions",
+          "isList": false
+        },
+        {
+          "id": "c0af25e9-1d5a-4ec0-90fc-40e89a045e01",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry i can\u0027t perform $Exceptions operation. Please specify from Addition , Multiplication , Subtraction and Division."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I can\u0027t perform $Exceptions operation. Please specify from Addition , Multiplication , Subtraction and Division.",
+            "I can Add , Subtract , Multiply and Divide ."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1551097281,
+  "fallbackIntent": false,
+  "events": []
+}

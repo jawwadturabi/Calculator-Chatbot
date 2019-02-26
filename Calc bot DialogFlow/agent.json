@@ -1,0 +1,68 @@
+{
+  "description": "",
+  "language": "en",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "new-frkepw",
+    "welcomeIntentSignInRequired": true,
+    "startIntents": [
+      {
+        "intentId": "b2f4aa64-1d47-457c-85ea-4b0038f430c4",
+        "signInRequired": false
+      },
+      {
+        "intentId": "4086f352-f4ea-48c3-94a6-bdf5e29f9edb",
+        "signInRequired": false
+      },
+      {
+        "intentId": "09ff6ed9-9992-4af5-b54b-932e6b0ed4d3",
+        "signInRequired": false
+      },
+      {
+        "intentId": "5581ed0f-f651-488a-984a-7b8c2139bf5c",
+        "signInRequired": false
+      },
+      {
+        "intentId": "c6f992d2-dff9-4999-8da3-d8b143aff4bd",
+        "signInRequired": false
+      },
+      {
+        "intentId": "d0341283-3413-4c76-b33e-5d1d3d51ebdd",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "Asia/Yekaterinburg",
+  "webhook": {
+    "url": "https://us-central1-new-frkepw.cloudfunctions.net/webhookV2",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": true,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": true
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

@@ -1,0 +1,80 @@
+{
+  "id": "09ff6ed9-9992-4af5-b54b-932e6b0ed4d3",
+  "name": "Multiply",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Multiply",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0a76743e-a26a-4b5e-8977-f7c735bc02ad",
+          "required": true,
+          "dataType": "@Multiply",
+          "name": "Multiply",
+          "value": "$Multiply",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "please specify the operation"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "6fbf4e15-bdb6-445d-aac2-570b4bcaab24",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "num1",
+          "value": "$num1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Kindly enter 1st number for $Multiply."
+            },
+            {
+              "lang": "en",
+              "value": "Please tell me first number for $Multiply.."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "a7576b97-c366-427d-a4e5-256b58f40210",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "num2",
+          "value": "$num2",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me Second number for $Multiply.original ."
+            },
+            {
+              "lang": "en",
+              "value": "Kindly enter 2nd number for $Multiply.original."
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1550996536,
+  "fallbackIntent": false,
+  "events": []
+}

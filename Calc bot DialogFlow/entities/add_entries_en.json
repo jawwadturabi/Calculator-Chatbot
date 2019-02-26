@@ -1,0 +1,28 @@
+[
+  {
+    "value": "add",
+    "synonyms": [
+      "add",
+      "summition"
+    ]
+  },
+  {
+    "value": "plus",
+    "synonyms": [
+      "plus",
+      "+"
+    ]
+  },
+  {
+    "value": "addition",
+    "synonyms": [
+      "addition"
+    ]
+  },
+  {
+    "value": "sum",
+    "synonyms": [
+      "sum"
+    ]
+  }
+]

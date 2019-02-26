@@ -1,0 +1,74 @@
+{
+  "id": "c6f992d2-dff9-4999-8da3-d8b143aff4bd",
+  "name": "Subtract",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Subtract",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "06f681c6-ab1a-4eef-8aae-bc5ab8b92ddf",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "num1",
+          "value": "$num1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Kindly enter 1st number for $Subtract."
+            },
+            {
+              "lang": "en",
+              "value": "Please tell me first number to be $Subtract ."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "2b8c1038-bfc5-43f1-aeee-b023e8cf41ec",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "num2",
+          "value": "$num2",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please tell me second number to be subtracted."
+            },
+            {
+              "lang": "en",
+              "value": "Kindly enter 2nd number to be subtracted."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "50353762-33af-426b-a573-9119d3398c37",
+          "required": false,
+          "dataType": "@Subtract",
+          "name": "Subtract",
+          "value": "$Subtract",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1550818479,
+  "fallbackIntent": false,
+  "events": []
+}

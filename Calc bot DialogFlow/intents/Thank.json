@@ -1,0 +1,32 @@
+{
+  "id": "d0341283-3413-4c76-b33e-5d1d3d51ebdd",
+  "name": "Thank",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "You are welcome. Nice to talk you!",
+            "You\u0027re welcome. I would like to hear from you soon.",
+            "Most welcome. Thank you for using me."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1550986327,
+  "fallbackIntent": false,
+  "events": []
+}

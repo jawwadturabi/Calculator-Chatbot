@@ -1,0 +1,75 @@
+{
+  "id": "4086f352-f4ea-48c3-94a6-bdf5e29f9edb",
+  "name": "Divide",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Divide",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a7b6402c-b390-4421-bea9-e4012fcb659e",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "num1",
+          "value": "$num1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please enter 1st number for $Divide."
+            },
+            {
+              "lang": "en",
+              "value": "Kindly tell me 1st number for $Divide."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "dcbf06b7-f8be-44dc-9c0d-b327a882b4b9",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "num2",
+          "value": "$num2",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Kindly tell me the 2nd number for $Divide."
+            },
+            {
+              "lang": "en",
+              "value": "Please enter the second number for $Divide."
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "ca237c4a-39be-44f6-8a79-4acde9d59982",
+          "required": true,
+          "dataType": "@Divide",
+          "name": "Divide",
+          "value": "$Divide",
+          "prompts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1550995704,
+  "fallbackIntent": false,
+  "events": []
+}

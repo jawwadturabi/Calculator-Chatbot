@@ -1,0 +1,38 @@
+{
+  "id": "9b064395-62cb-4b3c-96fc-ed2dd4b265b2",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi! I am your personal Calculator.",
+            "Hello! Here comes your Calculator assistant .",
+            "Good day!  Welcome to your calculator bot.",
+            "Greetings!  You can now perform mathematical operations by just commanding me."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1550749359,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}
